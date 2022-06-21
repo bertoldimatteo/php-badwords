@@ -18,5 +18,6 @@
    <p> <?php echo $string; ?></p> 
    <p> <?php echo strlen($string); ?></p>
    <p> <?php echo $newString; ?></p>
+   <p> <?php echo strlen($newString); ?></p>
 </body>
 </html>
