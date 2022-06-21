@@ -15,6 +15,7 @@
 </head>
 <body>
    <p> <?php echo $string; ?></p> 
+   <p> <?php echo strlen($string); ?></p>
    <p> <?php echo $subWord; ?></p>
 </body>
 </html>
