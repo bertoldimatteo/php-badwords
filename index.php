@@ -1,6 +1,7 @@
 <?php
 
- $string = 'Passata la tempesta odo augelli far festa e la gallina tornata in su la via che ripete il suo verso.'
+ $string = 'Passata la tempesta odo augelli far festa e la gallina tornata in su la via che ripete il suo verso.';
+ $subWord = $_GET['subWord'];
 
 ?>
 
@@ -13,6 +14,7 @@
     <title>Php badwords</title>
 </head>
 <body>
-   <p> <?php echo $string ?></p> 
+   <p> <?php echo $string; ?></p> 
+   <p> <?php echo $subWord; ?></p>
 </body>
 </html>
